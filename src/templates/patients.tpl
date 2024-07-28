@@ -37,7 +37,7 @@
                 <tr>
                     <td>{$patient.full_name}</td>
                     <td>{$patient.phone_number}</td>
-                    <td>{$patient.appointment_time}</td>
+                    <td>{$patient.appointment_time|date_format:"%Y-%m-%d %I:%M %p"}</td>
                     <td>{$patient.doctor_name}</td>
                     <td>{$patient.category_name}</td>
                     <td>
