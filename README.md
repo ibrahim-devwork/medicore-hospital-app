@@ -54,10 +54,9 @@ The application will automatically create the database with the required tables 
     ```bash
    docker exec -it <php-container-name> composer install
     
-Replace <php-container-name> with the actual name of your PHP container. You can find the name by running
+   Replace <php-container-name> with the actual name of your PHP container. You can find the name by running
 
-   ```bash
-   docker ps
+      "docker ps"
 
 ### Conclusion
 The Medicore Hospital App is a simple yet effective solution for managing hospital data. By following the steps above, you can easily set it up on your local machine and explore its features.
