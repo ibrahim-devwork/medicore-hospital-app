@@ -1,0 +1,14 @@
+{
+    "name": "medicore/hospital-app",
+    "description": "A small CRUD application using PHP and MySQL",
+    "require": {
+        "smarty/smarty": "^3.1",
+        "monolog/monolog": "^2.0",
+        "twbs/bootstrap": "^4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
